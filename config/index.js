@@ -12,16 +12,16 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api': {
-        target: 'http://vue.sf-express.com:3004/',
+        target: 'http://localhost:8889/api',
         pathRewrite: {
           '^/api': '',
         },
       },
-      '/gis': {
+      '/user': {
         // target: "http://10.118.45.113:8081",
-        target: 'http://lbs.sit.sf-express.com',
+        target: 'http://localhost:8889/user',
         pathRewrite: {
-          '^/gis': '',
+          '^/user': '',
         },
       },
     },
