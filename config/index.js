@@ -18,7 +18,6 @@ module.exports = {
         },
       },
       '/user': {
-        // target: "http://10.118.45.113:8081",
         target: 'http://localhost:8889/user',
         pathRewrite: {
           '^/user': '',

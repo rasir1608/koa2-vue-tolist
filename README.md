@@ -33,10 +33,6 @@
 
 >/* eslint-disable no-new */
 
-# 组件(src/components)
->基于element2.x 封装成业务组件sfsFilter,leftMenu,sfTable...后续增加公用组件;
->基于charts封装 pielinebar 组件(提供样式),提供一维数据,二维数据 只需要更新数据;
-
 ## Build Setup
 
 ``` bash
